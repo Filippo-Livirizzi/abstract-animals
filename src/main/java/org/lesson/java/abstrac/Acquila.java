@@ -1,11 +1,11 @@
 package org.lesson.java.abstrac;
 
-public class Acquila extends Animali {
+public class Acquila extends Animali implements Volo {
+	public void volo() {
+		System.out.println("Sto volando!!!!!");
+	}
 
-	@Override
-	public void dormi() {
-	System.out.println("Zzzzzzz");
-}
+
 	public void verso() {
 		System.out.println("Stridio");
 		}

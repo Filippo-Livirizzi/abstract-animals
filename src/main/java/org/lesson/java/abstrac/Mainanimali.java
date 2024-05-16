@@ -3,11 +3,11 @@ package org.lesson.java.abstrac;
 public  class Mainanimali  {
 
 	public static void main(String[] args) {
-		Animali delfino = new Delfino();
-		Animali acquila = new Acquila();
-		Animali cane = new Cane();
-		Animali passerotto = new Passerotto();
+		
+		
+		
 	//------------	DELFINO -------------
+		Animali delfino = new Delfino();
 		System.out.println("Il Delfino dorme: ");
 		delfino.dormi();
 		System.out.println("MANGIA: ");
@@ -15,6 +15,7 @@ public  class Mainanimali  {
 		System.out.println("IL SUO VERSO E': ");
 		delfino.verso();
 	//------------	ACQUILA -------------	
+		Animali acquila = new Acquila();
 		System.out.println("L'Acquila dorme: ");
 		acquila.dormi();
 		System.out.println("MANGIA: ");
@@ -22,6 +23,7 @@ public  class Mainanimali  {
 		System.out.println("IL SUO VERSO E'");
 		acquila.verso();
 	//------------	CANE -------------
+		Animali cane = new Cane();
 		System.out.println("Il Cane dorme: ");
 		cane.dormi();
 		System.out.println("MANGIA: ");
@@ -29,6 +31,7 @@ public  class Mainanimali  {
 		System.out.println("IL SUO VERSO E'");
 		cane.verso();
 	//------------	PASSEROTTO -------------
+		Animali passerotto = new Passerotto();
 		System.out.println("Il Passerotto dorme: ");
 		passerotto.dormi();
 		System.out.println("MANGIA: ");

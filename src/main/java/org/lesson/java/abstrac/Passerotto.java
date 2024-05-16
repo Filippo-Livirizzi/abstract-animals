@@ -1,10 +1,9 @@
 package org.lesson.java.abstrac;
 
-public class Passerotto extends Animali {
+public class Passerotto extends Animali implements Volo {
 
-	@Override
-	public void dormi() {
-	System.out.println("Zzzzzzz");
+public void volo() {
+	System.out.println("Sto volando!!!!!");
 }
 	public void verso() {
 		System.out.println("cinguettio");
